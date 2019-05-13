@@ -1,4 +1,4 @@
-body {
+html {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,cee0de+100&1+0,0.71+100 */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(206,224,222,0.71) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(206,224,222,0.71) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -19,7 +19,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .App-header {
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #fff;
 }
 
 .App-title {
