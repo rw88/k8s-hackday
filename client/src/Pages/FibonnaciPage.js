@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Fib extends Component {
+class FibonnaciPage extends Component {
   state = {
     seenIndexes: [],
     values: {},
@@ -74,4 +74,4 @@ class Fib extends Component {
   }
 }
 
-export default Fib;
+export default FibonnaciPage;

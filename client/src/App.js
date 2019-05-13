@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Fib from './Fib';
+import FibonnaciPage from './Pages/FibonnaciPage';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
             <h1 className="App-title">Fibonnaci Calculator</h1>
           </header>
           <div>
-            <Route exact path="/" component={Fib} />
+            <Route exact path="/" component={FibonnaciPage} />
           </div>
         </div>
       </Router>
