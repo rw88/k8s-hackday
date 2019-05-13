@@ -56,18 +56,18 @@ class FibonnaciPage extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label>Enter your index:</label>
           <input
             value={this.state.index}
+            placeholder="Your fib number"
             onChange={event => this.setState({ index: event.target.value })}
           />
           <button>Submit</button>
         </form>
 
-        <h3>Indexes I have seen:</h3>
+        <h2>Entered numbers:</h2>
         {this.renderSeenIndexes()}
 
-        <h3>Calculated Values:</h3>
+        <h2>Calculated Values:</h2>
         {this.renderValues()}
       </div>
     );
